@@ -3,7 +3,7 @@ import Container from "../../container";
 
 export default function About() {
   return (
-    <div className="mt-10 items-center  flex justify-center flex-col">
+    <div className="mt-20 items-center  flex justify-center flex-col">
       <Container>
         <p className="text-center ">
           Explore your options and make informed decisions with our

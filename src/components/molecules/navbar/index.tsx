@@ -5,21 +5,27 @@ const Navbar = () => {
   return (
     <header className="flex justify-between  items-center p-6 shadow bg-[##FFF] w-full flex-wrap">
       <Logo />
-      <ul className="flex items-center gap-8 text-blue-500 font-normal">
+      <ul className="flex items-center gap-8 text-[#36384E] font-normal">
         <li>
-          <CustomLink href="course">Inicio</CustomLink>
+          <CustomLink href="/">Início</CustomLink>
         </li>
         <li>
-          <CustomLink href="#">Nossos cursos</CustomLink>
+          <CustomLink href="#">Notícias</CustomLink>
         </li>
         <li>
-          <CustomLink href="#">Displinas</CustomLink>
+          <CustomLink href="#">Associação</CustomLink>
         </li>
         <li>
-          <CustomLink href="#">Material de Estudo</CustomLink>
+          <CustomLink href="#">Plataformas</CustomLink>
         </li>
         <li>
-          <CustomLink href="contacto">Contactos</CustomLink>
+          <CustomLink href="#">Serviços</CustomLink>
+        </li>
+        <li>
+          <CustomLink href="#">Denúncias</CustomLink>
+        </li>
+        <li>
+          <CustomLink href="/contacto">Contactos</CustomLink>
         </li>
       </ul>
     </header>
